@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    font-family: "Tahoma", sans-serif;
+    background-image: url(https://images.unsplash.com/uploads/1413387158190559d80f7/6108b580?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80)
+}
+h1 {
+    color: rgb(96, 96, 241);
+    font-size: 4rem;
+    text-align: center;
+    padding: 40px 0 20px 0;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    font-family: "Tahoma", sans-serif;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+button {
+    width: 300px;
+    height: 75px;
+    font-size: 1.5rem;
+    display: block;
+    font-family: "Tahoma", sans-serif;
+    margin: 20px auto;
+    
+    border-radius: 3px;
+    cursor: pointer;
+}
+#increment-btn, #save-btn {
+    background-color: rgb(96, 96, 241);
+    color: #333;
+    font-weight: bold;
+    color: #fff;
+    
+}
+#save-btn {
+    background-color: #fff;
+    color: #333;
+    font-weight: bold;
+    color: rgb(96, 96, 241);
+    
+}
